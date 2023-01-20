@@ -5,13 +5,14 @@ const Videos = ({videos}) => {
     
   return (
     <Stack direction="row" flexWrap='wrap' justifyContent='start' gap={2}>
-        {videos.map((item, index) => {
-            <Box key={index}>
+        {videos.map((item, idx) => (
+            //console.log(item, index);
+            <Box key={idx}>
                 {item.id.videoId && <VideoCard video={item}/>}
-            {item.id.channelId && <ChannelCard channelDeatil={item}/>}
+                {item.id.channelId && <ChannelCard channelDeatil={item}/>}
             </Box>
             
-        })}
+        ))}
 
     </Stack>
   )

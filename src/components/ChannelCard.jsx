@@ -1,6 +1,6 @@
 import React from 'react'
 
-const ChannelCard = ({item}) => {
+const ChannelCard = (channelDeatil) => {
   return (
     <div>ChannelCard</div>
   )
