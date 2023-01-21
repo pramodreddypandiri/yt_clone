@@ -1,6 +1,7 @@
 import React from 'react'
 import { Stack, Box } from '@mui/material'
 import {VideoCard, ChannelCard} from '../components'
+//this is part of feed
 const Videos = ({videos}) => {
     
   return (
@@ -9,7 +10,7 @@ const Videos = ({videos}) => {
             //console.log(item, index);
             <Box key={idx}>
                 {item.id.videoId && <VideoCard video={item}/>}
-                {item.id.channelId && <ChannelCard channelDeatil={item}/>}
+                {item.id.channelId && <ChannelCard channelDetail={item}/>}
             </Box>
             
         ))}
