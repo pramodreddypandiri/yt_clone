@@ -1,10 +1,25 @@
 # Learnings
+## React
+> React Player
 
-> Material UI
+## Material UI
+
   > Box
+
   > Stack
+
   > Typography
+
   > Available icons
+
   > Variant
-> RapidAPI
+
+## RapidAPI
+
   > Endpoints of API(GET)  
+
+  > different parameters to send
+
+  > destructring data recieved
+
+  
